@@ -29,7 +29,7 @@
   </head>
   <!-- TOGGLE DARK MODE -->
   <div class="flex justify-center pt-7">
-    <span class="text-sm text-slate-500 mr-2 dark:text-slate-100"
+    <span class="mr-2 text-sm text-slate-500 dark:text-slate-100"
       ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
         <path
           stroke-linecap="round"
@@ -40,11 +40,11 @@
     </span>
     <input type="checkbox" id="toggle" class="hidden" />
     <label for="toggle">
-      <div class="w-9 h-6 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer dark:bg-slate-100">
-        <div class="w-4 h-4 bg-slate-100 rounded-full toggle-circle dark:bg-slate-800"></div>
+      <div class="flex items-center h-6 p-1 rounded-full cursor-pointer w-9 bg-slate-500 dark:bg-slate-100">
+        <div class="w-4 h-4 rounded-full bg-slate-100 toggle-circle dark:bg-slate-800"></div>
       </div>
     </label>
-    <span class="text-sm text-slate-500 ml-2 dark:text-slate-100"
+    <span class="ml-2 text-sm text-slate-500 dark:text-slate-100"
       ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
         <path
           stroke-linecap="round"
@@ -57,16 +57,16 @@
   <!-- END TOGGLE DARK MODE -->
 
   <body class="dark:bg-slate-800 dark:text-slate-200">
-    <h1 class="m-4 font-bold text-8xl bg-gradient-to-tr from-blue-500 to-teal-400 bg-clip-text text-transparent flex max-w-lg mx-auto">Belajar Tailwind</h1>
+    <h1 class="flex max-w-lg m-4 mx-auto font-bold text-transparent text-8xl bg-gradient-to-tr from-blue-500 to-teal-400 bg-clip-text">Belajar Tailwind</h1>
 
-    <section class="font-serif max-w-lg mx-auto">
+    <section class="max-w-lg mx-auto font-serif">
       <h2 class="mb-3 text-3xl font-bold">Belajar Mengenai Typography pada Tailwindcss</h2>
-      <div class="mb-4 text-gray-600 dark:text-slate-300">By <a href="#" class="text-gray-900 font-bold dark:text-slate-100">Azzam,</a> 1 January 2025</div>
+      <div class="mb-4 text-gray-600 dark:text-slate-300">By <a href="#" class="font-bold text-gray-900 dark:text-slate-100">Azzam,</a> 1 January 2025</div>
       <p class="mb-2">
-        Lorem ipsum dolor <a href="#" class="underline font-semibold text-red-500">sit under </a>amet consectetur adipisicing elit. Consequuntur similique magni, hic eum ipsum placeat quis tempora sed quae! Iure quidem qui eaque praesentium
+        Lorem ipsum dolor <a href="#" class="font-semibold text-red-500 underline">sit under </a>amet consectetur adipisicing elit. Consequuntur similique magni, hic eum ipsum placeat quis tempora sed quae! Iure quidem qui eaque praesentium
         illo. Amet inventore quidem tempora fuga, optio suscipit similique. Laboriosam, distinctio voluptates incidunt ipsa quia molestias ea, in autem illo labore velit, ullam quidem odio neque.
       </p>
-      <blockquote class="mb-2 italic font-thin text-xl bg-gradient-to-tr from-cyan-500 via-red-100 to-blue-500 p-8 text-slate-900">
+      <blockquote class="p-8 mb-2 text-xl italic font-thin bg-gradient-to-tr from-cyan-500 via-red-100 to-blue-500 text-slate-900">
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi placeat sint porro fugiat quo possimus error quasi perferendis doloribus autem?
       </blockquote>
       <p class="mb-2">
@@ -90,20 +90,20 @@
     </div>
     <div class="max-w-lg mx-auto mt-[90px] h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-500 overflow-hidden blur-sm hover:blur-none" style="background-image: url('q\ -\ Copy.JPG')"></div>
     <div class="max-w-lg mx-auto mt-[90px] h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-500 flex" style="background-image: url('q\ -\ Copy.JPG')">
-      <div class="w-72 h-72 bg-white/25 m-auto backdrop-blur-sm"></div>
+      <div class="m-auto w-72 h-72 bg-white/25 backdrop-blur-sm"></div>
     </div>
 
     <hr class="my-20" />
 
     <button
-      class="mt-9 block max-w-lg mx-auto font-bold bg-sky-500 hover:bg-sky-600 active:bg-sky-800 focus:ring ring-sky-600 ring-offset-2 text-white py-3 px-6 rounded-full dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100"
+      class="block max-w-lg px-6 py-3 mx-auto font-bold text-white rounded-full mt-9 bg-sky-500 hover:bg-sky-600 active:bg-sky-800 focus:ring ring-sky-600 ring-offset-2 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100"
     >
       Save changes
     </button>
 
-    <div class="group max-w-lg my-10 mx-auto border border-slate-200 rounded-xl p-6 shadow-md hover:bg-sky-500 hover:ring-sky-500 dark:hover:bg-slate-300">
-      <h5 class="font-bold text-slate-800 text-lg mb-3 group-hover:text-white dark:group-hover:text-slate-800 dark:text-slate-300">My Cars</h5>
-      <p class="font-serif text-slate-500 group-hover:text-white selection:bg-gray-800 mb-5 dark:group-hover:text-slate-800">
+    <div class="max-w-lg p-6 mx-auto my-10 border shadow-md group border-slate-200 rounded-xl hover:bg-sky-500 hover:ring-sky-500 dark:hover:bg-slate-300">
+      <h5 class="mb-3 text-lg font-bold text-slate-800 group-hover:text-white dark:group-hover:text-slate-800 dark:text-slate-300">My Cars</h5>
+      <p class="mb-5 font-serif text-slate-500 group-hover:text-white selection:bg-gray-800 dark:group-hover:text-slate-800">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos quas provident placeat. Vel obcaecati voluptas possimus mollitia error aliquam? Cupiditate aut modi error incidunt, voluptas eveniet. Expedita, incidunt dolore?
       </p>
       <p
@@ -112,7 +112,7 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos quas provident placeat. Vel obcaecati voluptas possimus mollitia error aliquam? Cupiditate aut modi error incidunt, voluptas eveniet. Expedita, incidunt dolore?
       </p>
     </div>
-    <div class="group max-w-lg my-10 mx-auto border border-slate-200 rounded-xl p-6 shadow-md">
+    <div class="max-w-lg p-6 mx-auto my-10 border shadow-md group border-slate-200 rounded-xl">
       <form action="">
         <label for="email">
           <span class="block font-semibold mb-2 text-slate-700 after:content-['*'] after:text-pink-700 after:ml-0.5 dark:text-slate-300">Email</span>
@@ -120,26 +120,26 @@
             type="email"
             id="email"
             placeholder="Masukkan E-Mail anda"
-            class="px-3 py-2 border shadow rounded-sm w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-400 focus:border-sky-400 invalid:text-pink-700 invalid:focus:ring-pink-400 invalid:focus:border-pink-400 peer"
+            class="block w-full px-3 py-2 text-sm border rounded-sm shadow placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-400 focus:border-sky-400 invalid:text-pink-700 invalid:focus:ring-pink-400 invalid:focus:border-pink-400 peer"
           />
-          <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email tidak valid</p>
+          <p class="invisible m-1 text-sm text-pink-700 peer-invalid:visible">Email tidak valid</p>
         </label>
       </form>
     </div>
     <hr class="m-20 border-t-4 border-slate-900" />
 
-    <div class="mb-40 w-40 h-40 bg-pink-500 mx-auto mt-14 group">
-      <div class="w-full h-full bg-sky-500 rounded-lg shadow-lg group-hover:rotate-45 origin-top-left transition"></div>
+    <div class="w-40 h-40 mx-auto mb-40 bg-pink-500 mt-14 group">
+      <div class="w-full h-full transition origin-top-left rounded-lg shadow-lg bg-sky-500 group-hover:rotate-45"></div>
     </div>
 
     <!-- PROJECTS -->
     <a href="projects.html">
-      <div class="w-96 h-72 bg-slate-800 hover:bg-slate-700 mx-auto rounded-xl overflow-hidden mt-14 shadow-2xl hover:ring ring-slate-700 ring-offset-1 group">
-        <h5 class="pt-5 pl-7 text-slate-50 font-semibold text-xl tracking-wider">Project 1</h5>
-        <p class="p-2 px-6 text-slate-50 pl-7 group-hover:opacity-0 transition duration-500 font-light">
+      <div class="mx-auto overflow-hidden shadow-2xl w-96 h-72 bg-slate-800 rounded-xl mt-14 ring-slate-700 ring-offset-1 group hover:ring">
+        <h5 class="pt-5 text-xl font-semibold tracking-wider pl-7 text-slate-50">Project 1</h5>
+        <p class="p-2 px-6 font-light transition duration-500 text-slate-50 pl-7 group-hover:opacity-0">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis placeat ex repudiandae totam. Voluptas ipsa beatae eum tenetur atque nisi culpa
         </p>
-        <div class="mx-7 mt-16 w-72 h-56 bg-cover overflow-hidden bg-slate-500 rounded-lg shadow-lg group-hover:-translate-y-40 origin-top-left transition ease-in-out duration-500"><img src="q - Copy.JPG" alt="Project 1" /></div>
+        <div class="h-56 mt-16 overflow-hidden transition duration-500 ease-in-out origin-top-left bg-cover rounded-lg shadow-lg mx-7 w-72 bg-slate-500 group-hover:-translate-y-40"><img src="q - Copy.JPG" alt="Project 1" /></div>
       </div>
     </a>
     <!-- END PROJECTS -->
@@ -147,8 +147,8 @@
     <hr class="m-20 border-t-4 border-slate-900" />
 
     <div class="container mx-auto">
-      <div class="border rounded-lg shadow-2xl p-10 relative">
-        <div class="w-10 h-10 bg-pink-300 rounded-full flex fixed bottom-5 right-5 cursor-pointer"><a href="#" class="text-xl m-auto">❌</a></div>
+      <div class="relative p-10 border rounded-lg shadow-2xl">
+        <div class="fixed flex w-10 h-10 bg-pink-300 rounded-full cursor-pointer bottom-5 right-5"><a href="#" class="m-auto text-xl">❌</a></div>
         <img src="q - Copy.JPG" alt="azz" width="150" class="float-left mr-5" />
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores rem, eligendi aspernatur aut placeat repellendus tempore doloribus corrupti perferendis, omnis aliquam, ab repellat? Ipsa enim ea, ut, labore dolor reprehenderit
@@ -164,7 +164,7 @@
 
     <hr class="m-20 border-t-4 border-slate-900" />
 
-    <div class="container mx-auto border rounded-lg shadow-lg p-10 mt-20 columns-3">
+    <div class="container p-10 mx-auto mt-20 border rounded-lg shadow-lg columns-3">
       <img src="q - Copy.JPG" alt="azzam" class="mb-4" />
       <img src="q - Copy.JPG" alt="azzam" class="mb-4" />
       <img src="q - Copy.JPG" alt="azzam" class="mb-4" />
@@ -175,14 +175,14 @@
 
     <hr class="my-20 border-t-4 border-slate-900" />
 
-    <div class="container font-serif max-w-lg mx-auto sm:max-w-xl lg:flex lg:max-w-full">
+    <div class="container max-w-lg mx-auto font-serif sm:max-w-xl lg:flex lg:max-w-full">
       <div class="lg:p-12 lg:flex-1">
-        <h3 class="text-3xl font-bold text-slate-800 sm:text-5xl">Az<span class="bg-slate-800 rounded-lg text-slate-300">zam</span> Azhari</h3>
-        <img src="q - Copy.JPG" alt="az" class="mt-5 rounded-xl shadow-xl lg:hidden" />
+        <h3 class="text-3xl font-bold text-slate-800 sm:text-5xl">Az<span class="rounded-lg bg-slate-800 text-slate-300">zam</span> Azhari</h3>
+        <img src="q - Copy.JPG" alt="az" class="mt-5 shadow-xl rounded-xl lg:hidden" />
         <h2 class="mt-6 text-2xl font-semibold text-slate-700">Adventure</h2>
         <p class="mt-2 text-slate-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores aperiam at consequatur libero saepe cum blanditiis quas ab officiis iste eaque numquam rem consectetur.</p>
         <div class="mt-4">
-          <a href="#" class="inline-block px-5 py-3 bg-slate-800 text-slate-100 rounded-lg shadow-lg uppercase font-semibold tracking-widest text-sm">Follow Instagram</a>
+          <a href="#" class="inline-block px-5 py-3 text-sm font-semibold tracking-widest uppercase rounded-lg shadow-lg bg-slate-800 text-slate-100">Follow Instagram</a>
         </div>
       </div>
       <div class="hidden md:block">
@@ -191,33 +191,33 @@
     </div>
 
     <!-- My Gallery -->
-    <h2 class="mt-24 mb-10 text-center font-bold text-3xl text-slate-800">My Gallery</h2>
-    <div class="container mx-auto px-6 font-sans sm:flex sm:flex-wrap sm:gap-6 sm:justify-center">
-      <div class="rounded-md shadow-2xl overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-80">
+    <h2 class="mt-24 mb-10 text-3xl font-bold text-center text-slate-800">My Gallery</h2>
+    <div class="container px-6 mx-auto font-sans sm:flex sm:flex-wrap sm:gap-6 sm:justify-center">
+      <div class="mb-10 overflow-hidden rounded-md shadow-2xl sm:mb-0 sm:w-64 md:w-80 lg:w-80">
         <img src="q - Copy.JPG" alt="dsada" class="w-full" />
         <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
           <p class="text-sm text-slate-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, officiis!</p>
         </div>
       </div>
-      <div class="rounded-md shadow-2xl overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-80">
+      <div class="mb-10 overflow-hidden rounded-md shadow-2xl sm:mb-0 sm:w-64 md:w-80 lg:w-80">
         <img src="q - Copy.JPG" alt="dsada" class="w-full" />
         <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
           <p class="text-sm text-slate-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, officiis!</p>
         </div>
       </div>
-      <div class="rounded-md shadow-2xl overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-80">
+      <div class="mb-10 overflow-hidden rounded-md shadow-2xl sm:mb-0 sm:w-64 md:w-80 lg:w-80">
         <img src="q - Copy.JPG" alt="dsada" class="w-full" />
         <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
           <p class="text-sm text-slate-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, officiis!</p>
         </div>
       </div>
-      <div class="rounded-md shadow-2xl overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-80">
+      <div class="mb-10 overflow-hidden rounded-md shadow-2xl sm:mb-0 sm:w-64 md:w-80 lg:w-80">
         <img src="q - Copy.JPG" alt="dsada" class="w-full" />
         <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
           <p class="text-sm text-slate-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, officiis!</p>
         </div>
       </div>
@@ -226,9 +226,9 @@
 
     <hr class="my-20 border-t-4 border-slate-900" />
 
-    <div class="mt-64 p-2 grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4">
-      <h2 class="h-15 text-xl font-semibold text-slate-700 md:col-start-4 md:row-start-2 md:flex"><span class="self-center">Welcome WPU</span></h2>
-      <div class="h-15 text-lg font-bold text-slate-600 md:col-start-2 md:row-start-2 md:flex"><span class="self-end">@azzamazhari._</span></div>
+    <div class="grid grid-cols-2 gap-2 p-2 mt-64 md:grid-cols-4 md:p-4">
+      <h2 class="text-xl font-semibold h-15 text-slate-700 md:col-start-4 md:row-start-2 md:flex"><span class="self-center">Welcome WPU</span></h2>
+      <div class="text-lg font-bold h-15 text-slate-600 md:col-start-2 md:row-start-2 md:flex"><span class="self-end">@azzamazhari._</span></div>
 
       <div class="group card-gallery">
         <div class="bg-[url('/img-grid/1.jpg')] card-foto"></div>
